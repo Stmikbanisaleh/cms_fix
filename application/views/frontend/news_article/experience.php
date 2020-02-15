@@ -210,8 +210,8 @@
                                 <li>
                                     <a href="<?php echo base_url(); ?>index.php/home/<?php echo $function . "/" . $row->nm_project_seo; ?>">
                                         <?php
-                                        if ($row->gambar != '') {
-                                            echo "<img src='" . base_url() . "asset/front/img/news/" . $row->gambar."' />";
+                                        if ($row->image != '') {
+                                            echo "<img src='" . base_url() . "asset/foto_project/" . $row->image."' />";
                                         } else {
                                             echo "<img src='" . base_url() . "/asset/foto_info/unavailable-image.jpg"."' />";
                                         }
